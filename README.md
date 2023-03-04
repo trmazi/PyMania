@@ -74,42 +74,42 @@ Inside should be a list of JSON objects, one for each expected difficulty.
 
 ### Static Data
 List of games and versions:
-    * `0`: EZ2DJ
-      * `0`: The 1st Tracks
-      * `1`: The 1st Tracks (Special Edition)
-      * `2`: Dance Edition (Volume 1)
-      * `3`: 2nd TraX
-      * `4`: 3rd TraX
-      * `5`: 4th TraX
-      * `6`: Platinum (5th TraX)
-      * `7`: 6th TraX
-      * `8`: 7th TraX ~Resistance~
-      * `9`: 7th TraX 1.50
-      * `10`: 7th TraX 2.01
-      * `11`: 7th TraX Codename Violet
-      * `12`: Bonus Edition
-      * `13`: Bonus Edition Revision A
-      * `14`: Azure Expression
-      * `15`: Azure Expression Integral Composition
-    * `1`: EZ2Dancer
-      * `0`: 1st Move
-      * `1`: 2nd Move
-      * `3`: U.K. Move
-      * `4`: U.K. 2nd Move
-      * `5`: Super China
-    * `2`: Sabin Sound Star
-      * `0`: 3S
-    * `3`: EZ2ON
-      * `0`: EZ2ON (Original)
-      * `1`: EZ2ON Reboot
-      * `2`: EZ2ON Reboot *R*
-    * `4`: EZ2AC
-      * `0`: Endless Circulation
-      * `1`: EvolvE
-      * `2`: Night Traveler
-      * `3`: Time Traveler
-      * `4`: FINAL
-      * `5`: FINAL EX
+  * `0`: EZ2DJ
+    * `0`: The 1st Tracks
+    * `1`: The 1st Tracks (Special Edition)
+    * `2`: Dance Edition (Volume 1)
+    * `3`: 2nd TraX
+    * `4`: 3rd TraX
+    * `5`: 4th TraX
+    * `6`: Platinum (5th TraX)
+    * `7`: 6th TraX
+    * `8`: 7th TraX ~Resistance~
+    * `9`: 7th TraX 1.50
+    * `10`: 7th TraX 2.01
+    * `11`: 7th TraX Codename Violet
+    * `12`: Bonus Edition
+    * `13`: Bonus Edition Revision A
+    * `14`: Azure Expression
+    * `15`: Azure Expression Integral Composition
+  * `1`: EZ2Dancer
+    * `0`: 1st Move
+    * `1`: 2nd Move
+    * `3`: U.K. Move
+    * `4`: U.K. 2nd Move
+    * `5`: Super China
+  * `2`: Sabin Sound Star
+    * `0`: 3S
+  * `3`: EZ2ON
+    * `0`: EZ2ON (Original)
+    * `1`: EZ2ON Reboot
+    * `2`: EZ2ON Reboot *R*
+  * `4`: EZ2AC
+    * `0`: Endless Circulation
+    * `1`: EvolvE
+    * `2`: Night Traveler
+    * `3`: Time Traveler
+    * `4`: FINAL
+    * `5`: FINAL EX
 
 List of chart types:
     * `5K_O`: 5Key Only
