@@ -157,5 +157,3 @@ List of note positions for each game mode:
       - `0` -> `4` - Main Keys
     - EZ2Catch
       - `0` -> `255` - Valid turntable positions
-
-    In Modes
