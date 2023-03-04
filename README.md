@@ -112,48 +112,48 @@ List of games and versions:
     * `5`: FINAL EX
 
 List of chart types:
-    * `5K_O`: 5Key Only
-    * `5K_R`: 5Key Ruby
-    * `5K`: 5Key Standard
-    * `7K`: 7Key
-    * `10K`: 10Key
-    * `14K`: 14Key
-    * `16K`: 16Key (Andromeda)
-    * `CA`: EZ2Catch
-    * `TT`: Turntable Mode
+  * `5K_O`: 5Key Only
+  * `5K_R`: 5Key Ruby
+  * `5K`: 5Key Standard
+  * `7K`: 7Key
+  * `10K`: 10Key
+  * `14K`: 14Key
+  * `16K`: 16Key (Andromeda)
+  * `CA`: EZ2Catch
+  * `TT`: Turntable Mode
 
 List of difficulties:
-    * `0`: Easy
-    * `1`: Normal
-    * `2`: Hard
-    * `3`: Super Hard
-    * `4`: Extreme
+  * `0`: Easy
+  * `1`: Normal
+  * `2`: Hard
+  * `3`: Super Hard
+  * `4`: Extreme
 
 List of note positions for each game mode:
-    * 5Key Modes (minus 5Key Only)
-      * `0`: Turntable
-      * `1` -> `5`: Main keys
-      * `6`: Pedal
-    * 7Key Modes
-      * `0`: Turntable
-      * `1` -> `7`: Main keys
-      * `8`: Pedal
-    * 10Key Modes
-      * `0`: Left Turntable
-      * `1` -> `10`: Main keys
-      * `11`: Right Turntable
-      * `12`: Pedal
-    * 14Key Modes
-      * `0`: Left Turntable
-      * `1` -> `14`: Main keys
-      * `15`: Right Turntable
-    * 16Key Modes
-      * `0`: Left Turntable
-      * `1` -> `14`: Main keys
-      * `15`: Right Turntable
-      * `16`: Left Pedal
-      * `17`: Right Pedal
-    * Turntable Mode + 5Key Only
-      * `0` -> `4`: Main Keys
-    * EZ2Catch
-      * `0` -> `255`: Valid turntable positions
+  * 5Key Modes (minus 5Key Only)
+    * `0`: Turntable
+    * `1` -> `5`: Main keys
+    * `6`: Pedal
+  * 7Key Modes
+    * `0`: Turntable
+    * `1` -> `7`: Main keys
+    * `8`: Pedal
+  * 10Key Modes
+    * `0`: Left Turntable
+    * `1` -> `10`: Main keys
+    * `11`: Right Turntable
+    * `12`: Pedal
+  * 14Key Modes
+    * `0`: Left Turntable
+    * `1` -> `14`: Main keys
+    * `15`: Right Turntable
+  * 16Key Modes
+    * `0`: Left Turntable
+    * `1` -> `14`: Main keys
+    * `15`: Right Turntable
+    * `16`: Left Pedal
+    * `17`: Right Pedal
+  * Turntable Mode + 5Key Only
+    * `0` -> `4`: Main Keys
+  * EZ2Catch
+    * `0` -> `255`: Valid turntable positions
