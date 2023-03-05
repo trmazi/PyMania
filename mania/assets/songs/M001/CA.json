@@ -1,0 +1,17 @@
+[
+    {
+        "difficulty": 1,
+        "scale": 2,
+        "customName": "Funny one",
+        "rate": 1.0,
+        "notes": [
+            {"beat": 10, "length": 1.0, "position": 1, "isBonus": false, "sound": "ex_sound_1"},
+            {"beat": 11, "length": 1.0, "position": 2, "isBonus": false, "sound": "ex_sound_2"},
+            {"beat": 12, "length": 1.0, "position": 3, "isBonus": false, "sound": "ex_sound_3"},
+            {"beat": 13, "length": 2.0, "position": 4, "isBonus": false, "sound": "ex_sound_4"},
+            {"beat": 14, "length": 3.0, "position": 5, "isBonus": false, "sound": "ex_sound_5"},
+            {"beat": 15, "length": 4.0, "position": 6, "isBonus": false, "sound": "ex_sound_6"},
+            {"beat": 16, "length": 5.0, "position": 7, "isBonus": false, "sound": "ex_sound_7"}
+        ]
+    }
+]

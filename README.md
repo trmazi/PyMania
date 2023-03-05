@@ -16,7 +16,9 @@ One `songs.json` for entire game.
             "songId": "example ID",
             "title": "example title",
             "artist": "example artist",
+            "extra": "example\nextra",
             "genre": "example genre",
+            "length": 260,
             "bpm": 120.0,
             "sourceGame": 1,
             "sourceVersion": 1,
@@ -28,7 +30,9 @@ One `songs.json` for entire game.
 * `songId`: Song's unique ID. Stored as string. Used for pulling files, score data, server data, and more. VERY important.
 * `title`: Song's title, as string.
 * `artist`: Song's artist, as string.
+* `extra`: Extra text for a song, as string. Separate lines with `\n`.
 * `genre`: Song's genre, as string.
+* `length`: Song's length in seconds, as integer.
 * `bpm`: BPM of song, as float.
 * `sourceGame`: Game from which the song originated, as int.
 * `sourceVersion`: Version of source game, as int.
@@ -157,3 +161,30 @@ List of note positions for each game mode:
     * `0` -> `4`: Main Keys
   * EZ2Catch
     * `0` -> `255`: Valid turntable positions
+
+### Song Assets
+In each `songs/<songId>` folder, there should be all of the assets needed for the song. 
+
+Here's a list of expected files.
+  * `<chartType>.json`: Charting data. Should be one for all chart types you want to make.
+  * `cover.png`: Song Jacket/CD/Icon. Required.
+  * `eyeCatch.png`: Full artwork for song, for loading screen. Not required.
+  * `movie.mp4`: Video file for song. Not required.
+  * `bg/ez2bg files`: **PLANNED**
+  * `sound.bin`: File used for storing all sound data, such as sounds and BGMs.
+
+### `sound.bin` Files, WTF are they?
+The game `sound.bin` files are a custom format that packs all of a song's .wav files into one large file. 
+Here's the general layout of the file.
+
+ - Header: `BESND` - Based Engine Sound.
+ - Number of files - Padded to 4 bytes
+  
+ - Sound Name - Padded to 132 bytes
+ - *4 byte 0x00*
+ - Sound size - Padded to 4 bytes.
+ - *4 byte 0x00*
+ - Data
+ - Loop to next sound.
+
+Tools for the file can be found in `tools/sound`
