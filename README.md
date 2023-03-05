@@ -5,7 +5,7 @@
 Here's some important documentation about how I intend on doing things.
 
 ## Game Data
-Game data is stored as JSON
+Game data is stored as JSON.
 Here's the test V1 structure.
 
 ### Song Library
